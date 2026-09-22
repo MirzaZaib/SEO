@@ -1,0 +1,214 @@
+/* =========================================================
+   Digital Art Studio — Main Stylesheet
+   Used by all "well-optimized" demonstration pages.
+   ========================================================= */
+
+:root {
+  --color-primary: #6c3ce9;
+  --color-primary-dark: #4b21b0;
+  --color-accent: #ff6b6b;
+  --color-dark: #181524;
+  --color-light: #f7f5ff;
+  --color-muted: #6b6478;
+  --font-heading: "Segoe UI", "Poppins", Arial, sans-serif;
+  --font-body: "Segoe UI", Arial, sans-serif;
+  --radius: 12px;
+  --max-width: 1120px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-dark);
+  background: #fff;
+  line-height: 1.6;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+
+a { color: var(--color-primary); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Skip link for accessibility (best-practice pages) */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  background: var(--color-dark);
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 100;
+}
+.skip-link:focus { left: 16px; top: 16px; }
+
+/* Header / Nav */
+.site-header {
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 50;
+}
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--color-dark);
+}
+.brand img { width: 36px; height: 36px; }
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 22px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.main-nav a {
+  color: var(--color-dark);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.main-nav a[aria-current="page"] { color: var(--color-primary); }
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: #fff;
+  padding: 72px 0;
+}
+.hero .container {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 40px;
+  align-items: center;
+}
+.hero h1 { font-family: var(--font-heading); font-size: 2.5rem; margin: 0 0 16px; }
+.hero p { font-size: 1.1rem; opacity: 0.92; max-width: 46ch; }
+.hero-media img { border-radius: var(--radius); box-shadow: 0 20px 50px rgba(0,0,0,0.25); }
+
+.btn {
+  display: inline-block;
+  padding: 12px 26px;
+  border-radius: 999px;
+  font-weight: 700;
+  background: #fff;
+  color: var(--color-primary-dark);
+  margin-top: 20px;
+}
+.btn:hover { background: var(--color-light); text-decoration: none; }
+.btn-outline {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+/* Sections */
+section { padding: 56px 0; }
+.section-alt { background: var(--color-light); }
+h2 { font-family: var(--font-heading); font-size: 1.9rem; margin-top: 0; }
+h3 { font-family: var(--font-heading); }
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+.card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: 0 6px 18px rgba(24,21,36,0.05);
+}
+.card img { border-radius: 8px; margin-bottom: 14px; }
+
+/* Breadcrumbs */
+.breadcrumbs {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin: 18px 0;
+}
+.breadcrumbs a { color: var(--color-muted); }
+.breadcrumbs span[aria-current] { color: var(--color-dark); font-weight: 600; }
+
+/* Footer */
+.site-footer {
+  background: var(--color-dark);
+  color: #cfc9e0;
+  padding: 40px 0 24px;
+  margin-top: 40px;
+}
+.site-footer a { color: #fff; }
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+}
+.footer-grid h4 { color: #fff; margin-bottom: 10px; }
+.social-links { display: flex; gap: 14px; margin-top: 8px; }
+.social-links a {
+  width: 36px; height: 36px;
+  border: 1px solid #453f5c;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+}
+.fine-print { text-align: center; margin-top: 28px; font-size: 0.8rem; color: #8b84a0; }
+
+/* Demo banners used on seo-demo pages */
+.demo-banner {
+  padding: 14px 0;
+  font-weight: 700;
+  text-align: center;
+}
+.demo-banner.good { background: #e4f9ec; color: #146c43; }
+.demo-banner.bad { background: #fdecea; color: #b3261e; }
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+.badge.good { background: #e4f9ec; color: #146c43; }
+.badge.bad { background: #fdecea; color: #b3261e; }
+
+.compare-table { width: 100%; border-collapse: collapse; margin-top: 24px; }
+.compare-table th, .compare-table td {
+  border: 1px solid #e6e2f2; padding: 12px 14px; text-align: left; vertical-align: top;
+}
+.compare-table th { background: var(--color-light); }
+
+@media (max-width: 760px) {
+  .hero .container { grid-template-columns: 1fr; }
+}

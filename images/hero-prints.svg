@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Framed digital art print of a mountain landscape hanging on a wall, sample of the digital art prints collection">
+  <rect width="600" height="420" fill="#f7f5ff"/>
+  <rect x="140" y="60" width="320" height="260" fill="#fff" stroke="#6c3ce9" stroke-width="8"/>
+  <rect x="160" y="80" width="280" height="220" fill="#dfe9f5"/>
+  <polygon points="160,260 260,160 320,220 400,120 440,260 440,300 160,300" fill="#6c3ce9"/>
+  <circle cx="400" cy="140" r="24" fill="#ffd166"/>
+</svg>

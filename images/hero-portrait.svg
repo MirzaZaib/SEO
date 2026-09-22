@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Stylized digital portrait illustration of a person, example of a custom portrait commission">
+  <rect width="600" height="420" fill="#241a3b"/>
+  <circle cx="300" cy="180" r="110" fill="#ffd8b1"/>
+  <path d="M190 180 a110 110 0 0 1 220 0 v40 h-220 z" fill="#4b21b0"/>
+  <ellipse cx="260" cy="180" rx="10" ry="14" fill="#241a3b"/>
+  <ellipse cx="340" cy="180" rx="10" ry="14" fill="#241a3b"/>
+  <path d="M260 230 q40 30 80 0" stroke="#241a3b" stroke-width="6" fill="none"/>
+  <rect x="150" y="300" width="300" height="120" fill="#ff6b6b"/>
+</svg>

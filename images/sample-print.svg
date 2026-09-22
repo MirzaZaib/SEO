@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img" aria-label="Sample framed art print thumbnail showing a geometric mountain design">
+  <rect width="300" height="220" fill="#fff" stroke="#6c3ce9" stroke-width="6"/>
+  <polygon points="40,180 110,90 150,140 210,60 260,180" fill="#6c3ce9"/>
+  <circle cx="220" cy="80" r="18" fill="#ffd166"/>
+</svg>

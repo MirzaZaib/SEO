@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Futuristic glowing geometric artwork representing a digital collectible sold on the NFT digital art marketplace">
+  <rect width="600" height="420" fill="#181524"/>
+  <polygon points="300,50 500,180 420,380 180,380 100,180" fill="none" stroke="#ff6b6b" stroke-width="4"/>
+  <polygon points="300,110 440,200 390,340 210,340 160,200" fill="#6c3ce9" opacity="0.8"/>
+  <circle cx="300" cy="220" r="50" fill="#ffd166"/>
+</svg>
