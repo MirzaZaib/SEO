@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/index.html</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/services.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/about.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/contact.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/keywords/digital-art-prints.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/keywords/custom-portrait-commissions.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/keywords/digital-illustration-services.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/keywords/nft-digital-art-marketplace.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/blog/index.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/blog/digital-art-trends-2026.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/seo-demo/index.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/seo-demo/onpage-best.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/seo-demo/offpage-best.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mirzazaib.github.io/SEO/index.html</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://mirzazaib.github.io/SEO/services.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://mirzazaib.github.io/SEO/about.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mirzazaib.github.io/SEO/contact.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mirzazaib.github.io/SEO/keywords/digital-art-prints.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mirzazaib.github.io/SEO/keywords/custom-portrait-commissions.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mirzazaib.github.io/SEO/keywords/digital-illustration-services.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mirzazaib.github.io/SEO/keywords/nft-digital-art-marketplace.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mirzazaib.github.io/SEO/blog/index.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mirzazaib.github.io/SEO/blog/digital-art-trends-2026.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mirzazaib.github.io/SEO/seo-demo/index.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://mirzazaib.github.io/SEO/seo-demo/onpage-best.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://mirzazaib.github.io/SEO/seo-demo/offpage-best.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
   <!--
     Note: onpage-poor.html and offpage-poor.html are intentionally left out of this
     sitemap. Submitting broken/poor pages to search engines is itself bad practice,
